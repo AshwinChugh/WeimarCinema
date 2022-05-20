@@ -186,12 +186,46 @@ h6 { }</style>    </head>
 			<div class="content-blog">
 				 						<div class="ourblog-box">
 							
-								
-<div style="display: grid; grid-template-columns: 33% 66%; gap: 25px;">
+
+<style>
+	.bigscreen {
+		display: grid;
+		grid-template-columns: 33% 66%; gap: 0.5vw;
+	}
+
+	.bigscreenimage {
+		display: block;
+	}
+
+	.littlescreenimage {
+		display: none;
+	}
+
+	@media only screen and (max-width: 1200px) {
+		.bigscreen {
+			display: grid;
+			grid-template-columns: 100%;
+		}
+
+		.bigscreenimage {
+			display: none;
+		}
+
+		.littlescreenimage {
+			display: block;
+		}
+	}
+</style>
+
+<div class="bigscreen">
 	<div>
-		<h1 style="text-align: center; font-family: BauHaus; font-size: 3.2vw;"><strong>WeimarCinema.org</strong>
-		</h1>
+		<h1 style="text-align: center; font-family: BauHaus; font-size: 300%; padding-bottom: 2%;"><strong>WeimarCinema.org</strong></h1>
 		<hr style="border: none; border-bottom: 0.8vw solid black;">
+		<div class="littlescreenimage" >
+			<img src="./wp-content/uploads/2022/05/home-image.jpg" alt="Weimar Film Still Image">
+			<br>
+			<br>
+		</div>
 		<p style="font-size: 120%; text-align: start;">
 			This website offers an online archive and research
 forum to support and inspire new scholarship on the
@@ -203,9 +237,9 @@ for teaching Weimar films.
 		</p>
 		<hr style="border: none; border-bottom: 0.4vw solid black;">
 		<p style="font-size: 120%; text-align: start;">
-			It builds on and supersedes 'The Promise of Cinema', a
-			supplemental website to an eponymous sourcebook of
-			critical writings about German film theory, 1907-1933.
+			It builds on and supersedes The Promise of Cinema, a
+			supplemental website to a sourcebook of
+			German film-critical writings before 1933.
 			WeimarCinema.org now focuses on Weimar’s
 			prodigious film production and embeds it in a larger
 			film-theoretical tradition reaching back to early cinema
@@ -232,7 +266,7 @@ proposed contributions, please contact us <a href="./index.php/contact-2/index.h
 		</p>
 	</div>
 	<div>
-		<img src="./wp-content/uploads/2022/05/home-image.jpg" alt="Weimar Film Still Image">
+		<img class="bigscreenimage" style="padding-top: 2.5%" src="./wp-content/uploads/2022/05/home-image.jpg" alt="Weimar Film Still Image">
 		<div style="border-left: 1vw solid black;">
 			<h2 style="text-align: center;">News & Updates</h2>
 			
@@ -260,7 +294,7 @@ proposed contributions, please contact us <a href="./index.php/contact-2/index.h
 
 			<h3 style="font-size: 150%"><u style="text-decoration: none; border-bottom: 0.2vw solid black"><strong>Updates</strong></u></h3>
 			<p style="font-size: 120%;">New entries on WeimarCinema.org: <a href="./index.php/streaming-films/index.html" target="_blank">Online German Films
-				before 1933</a>; <a href="./index.php/resources-and-archives/index.html" target="_blank">Resources and Film Archives</a>; <a href="./index.php/new-research/index.html" target="_blank">Activities</a>; <a href="./index.php/film-dossiers/index.html" target="_blank">Film Dossiers</a>.</p>
+				before 1933</a>; <a href="./index.php/resources-and-archives/index.html" target="_blank">Resources and Film Archives</a>; <a href="./index.php/new-research/index.html" target="_blank">Activities</a>; <a href="./index.php/film-dossiers/index.html" target="_blank">Film Dossiers</a>. <span style="color: red">The search function is under development.</span></p>
 			</div>
 		</div>
 	</div>
