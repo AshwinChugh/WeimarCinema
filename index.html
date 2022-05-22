@@ -191,6 +191,7 @@ h6 { }</style>    </head>
 	.bigscreen {
 		display: grid;
 		grid-template-columns: 33% 66%; gap: 0.5vw;
+		grid-template-rows: 50% 50%;
 	}
 
 	.bigscreenimage {
@@ -203,8 +204,8 @@ h6 { }</style>    </head>
 
 	@media only screen and (max-width: 1200px) {
 		.bigscreen {
-			display: grid;
-			grid-template-columns: 100%;
+			display: flex;
+			flex-direction: column;
 		}
 
 		.bigscreenimage {
@@ -218,7 +219,7 @@ h6 { }</style>    </head>
 </style>
 
 <div class="bigscreen">
-	<div>
+	<div style="border-bottom: solid 0.4vw black;">
 		<h1 style="text-align: center; font-family: BauHaus; font-size: 300%; padding-bottom: 2%;"><strong>WeimarCinema.org</strong></h1>
 		<hr style="border: none; border-bottom: 0.8vw solid black;">
 		<div class="littlescreenimage" >
@@ -245,7 +246,12 @@ for teaching Weimar films.
 			film-theoretical tradition reaching back to early cinema
 			and also forward to contemporary concerns.
 		</p>
-		<hr style="border: none; border-bottom: 0.4vw solid black;">
+	</div>
+	<div style="padding-bottom: 4%;" class="bigscreenimage" >
+		<img style="padding-top: 2.5%" src="./wp-content/uploads/2022/05/home-image.jpg" alt="Weimar Film Still Image">
+	</div>
+	<div>
+		<br>
 		<p style="font-size: 120%; text-align: start;">
 			This website highlights Weimar’s creation of a
 modernist film language of trauma and urban life that
@@ -266,7 +272,6 @@ proposed contributions, please contact us <a href="./index.php/contact-2/index.h
 		</p>
 	</div>
 	<div>
-		<img class="bigscreenimage" style="padding-top: 2.5%" src="./wp-content/uploads/2022/05/home-image.jpg" alt="Weimar Film Still Image">
 		<div style="border-left: 1vw solid black;">
 			<h2 style="text-align: center;">News & Updates</h2>
 			
