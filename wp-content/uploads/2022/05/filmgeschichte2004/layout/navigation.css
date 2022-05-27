@@ -1,0 +1,17 @@
+body {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #FFFFFF; background-color: #000000; margin-left: 15px; margin-top: 15px; margin-right: 2px}
+
+
+a {  font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; text-decoration: none; font-size: 9pt}
+a:link { color:#FFFFFF; ; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 9pt}
+a:visited { color:#FFFFFF; text-decoration:none; ; font-family: Arial, Helvetica, sans-serif; font-size: 9pt}
+a:active { color:#FF0000; text-decoration:none; ; font-family: Arial, Helvetica, sans-serif; font-size: 9pt}
+
+
+table {  font-family: Arial, Helvetica, sans-serif; font-size: 7pt; color: #666666}
+td {  font-family: Arial, Helvetica, sans-serif; font-size: 7pt; color: #666666}
+tr {  font-family: Arial, Helvetica, sans-serif; font-size: 7pt; color: #666666}
+b {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt}
+
+
+.header {  font-family: Arial, Helvetica, sans-serif; font-size: 7pt; color: #666666}
+#header {  font-family: Arial, Helvetica, sans-serif; font-size: 7pt; color: #666666}
